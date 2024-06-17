@@ -1,0 +1,14 @@
+.container{
+    background-color: rgba(170, 170, 170, 0.723);
+    display: flex;
+    gap: 4;
+}
+.img{
+    row-gap: 10px;
+}
+.SingerAndTitle{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}

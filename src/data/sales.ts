@@ -1,0 +1,8 @@
+export const sale = [
+    {id: 1, img:'https://content.abt.com/image.php/big-WM3700HWH.jpg?image=/images/products/BDP_Images/big-WM3700HWH.jpg&canvas=1&quality=80&width=600&height=400',shop:'YOUNG SHOP',price:1422.7,discount:1025.5, precent:'18% off', name: 'LG White Fornt Load Steam Washer', rank: '', sold:'Sold: 10'},
+    {id: 2, img:'https://i5.walmartimages.com/asr/f23e3401-0330-4196-9e91-3b603d91feb5_1.562dc716da56193721e441860b43a9d0.jpeg',shop:'YOUNG SHOP',price: 96, discount:85, precent:'18% off', name: 'Edifier Powered Bookshelf Speakers', rank: '', sold:'Sold: 15'},
+    {id: 3, img:'https://images-na.ssl-images-amazon.com/images/I/6152suXW6lL._AC_SL1500_.jpg',shop:'YOUNG SHOP',price: 62.99, discount:45.9, precent:'18% off', name: 'Amcrest Security Camera in White Color', rank: '', sold:'Sold: 20'},
+    {id: 4, img:'https://burotopiris.com/ecom/wp-content/uploads/2013/06/3a-1.jpg',shop:'YOUNG SHOP',price: 41.99, discount:32.99, precent:'18% off', name: 'Grand Slam Indoor Of Show Jumping Novel', rank: '', sold:'Sold: 22'},
+    {id: 5, img:'https://images-na.ssl-images-amazon.com/images/I/61VpgiHPg7L.jpg',shop:'YOUNG SHOP',price:106.96, discount:100.99, precent:'18% off', name: 'Sound Intone I65 Earphone White Version', rank: '', sold:'Sold: 10'},
+    {id: 6, img:'https://wpmartfury.com/marketplace/wp-content/uploads/sites/2/2013/06/5a.jpg',shop:'YOUNG SHOP',price: 670.2, discount:567.8, precent:'18% off', name: 'Korea Long Sofa Fabric In Blue Navy Color', rank: '', sold:'Sold: 79'},
+]
