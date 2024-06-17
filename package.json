@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/PhuongLy1304/ProjectAptech",
+  "homepage": "https://phuongly1304.github.io/ProjectAptech/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
