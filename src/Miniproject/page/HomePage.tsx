@@ -2,25 +2,25 @@ import { Helmet } from "react-helmet";
 import { FiPlay } from "react-icons/fi";
 import MoviesList from "../MoviesList";
 // import SwiperGallery from "../SwiperGallery";
-import Skeleton from "react-loading-skeleton";
+// import Skeleton from "react-loading-skeleton";
 
-const LoadingPost = () => {
-    return (
-        <>   
-                <div className="photo w-[180px]">
-                    <Skeleton height={470} width={1060} />
-                </div>
-                <div className="content flex-1">
-                    <Skeleton height={47} width={1060}/>
-                </div>   
-                <div className="flex w-[1060px]">
-                    <div className="content flex-1">
-                        <Skeleton count={3} />
-                    </div>
-                </div>             
-        </>
-    );
-};
+// const LoadingPost = () => {
+//     return (
+//         <>   
+//                 <div className="photo w-[180px]">
+//                     <Skeleton height={470} width={1060} />
+//                 </div>
+//                 <div className="content flex-1">
+//                     <Skeleton height={47} width={1060}/>
+//                 </div>   
+//                 <div className="flex w-[1060px]">
+//                     <div className="content flex-1">
+//                         <Skeleton count={3} />
+//                     </div>
+//                 </div>             
+//         </>
+//     );
+// };
 
 const HomePage = () => {
     return (

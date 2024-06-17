@@ -20,15 +20,15 @@ function Header() {
             </div>
             
             <a href="#" className="user">
-                <img src="https://www.footballtodaylive.com/team-logo/Phil-Foden.png" alt="" className="user-img"/>
+                <img src="https://www.didongmy.com/vnt_upload/news/05_2024/anh-27-meme-dang-yeu-didongmy.jpg" alt="" className="user-img"/>
             </a>
 
             <div className="navbar">
-                <Link to={`/Project`}><NavbarItem type="nav-active" icon={<AiOutlineHome />} label="Home" /></Link>
-                <Link to={`/Project/popular`}><NavbarItem icon={<SiFireship />} label="Popular" /></Link>
-                <Link to={`/Project/now_playing`}><NavbarItem icon={<MdExplore />} label="Now Playing" /></Link>
-                <Link to={`/Project/movies`}><NavbarItem icon={<PiTelevisionSimpleBold />} label="Movies" /></Link>
-                <Link to={`/Project/favourite`}><NavbarItem icon={<FaRegHeart />} label="Favourite" /></Link>             
+                <Link to={`/ProjectAptech`}><NavbarItem type="nav-active" icon={<AiOutlineHome />} label="Home" /></Link>
+                <Link to={`/ProjectAptech/popular`}><NavbarItem icon={<SiFireship />} label="Popular" /></Link>
+                <Link to={`/ProjectAptech/now_playing`}><NavbarItem icon={<MdExplore />} label="Now Playing" /></Link>
+                <Link to={`/ProjectAptech/movies`}><NavbarItem icon={<PiTelevisionSimpleBold />} label="Movies" /></Link>
+                <Link to={`/ProjectAptech/favourite`}><NavbarItem icon={<FaRegHeart />} label="Favourite" /></Link>             
             </div>
         </div>
     </header>

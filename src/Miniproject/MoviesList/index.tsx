@@ -5,14 +5,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 
 // import Swiper core and required modules
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
 
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Skeleton from "react-loading-skeleton";
+// import Skeleton from "react-loading-skeleton";
 
 
 const API = "https://api.themoviedb.org/3/movie";
@@ -31,39 +31,39 @@ interface IResponse {
   total_results: number;
 }
 
-const LoadingPost = () => {
-  return (
-      <>   
-      <div>
-        <h1>loading</h1>
-      </div>
-              {/* <div className="photo w-[180px]">
-                  <Skeleton height={470} width={1060} />
-              </div>
-              <div className="content flex-1">
-                  <Skeleton height={47} width={1060}/>
-              </div>   
-              <div className="flex w-[1060px]">
-                  <div className="content flex-1">
-                      <Skeleton count={3} />
-                  </div>
-              </div>              */}
-      </>
-  );
-};
+// const LoadingPost = () => {
+//   return (
+//       <>   
+//       <div>
+//         <h1>loading</h1>
+//       </div>
+//               {/* <div className="photo w-[180px]">
+//                   <Skeleton height={470} width={1060} />
+//               </div>
+//               <div className="content flex-1">
+//                   <Skeleton height={47} width={1060}/>
+//               </div>   
+//               <div className="flex w-[1060px]">
+//                   <div className="content flex-1">
+//                       <Skeleton count={3} />
+//                   </div>
+//               </div>              */}
+//       </>
+//   );
+// };
 
 const MoviesList = ({ url }: { url: string }) => {
   const [movies, setMovies] = useState<IResponse | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
-    setIsLoading(true);
+    // setIsLoading(true);
     const fetchData = async () => {
       const response = await axios.get(`${API}${url}`, {
         headers: {
           Authorization: "Bearer " + token,
         },
       });
-      setIsLoading(false);
+      // setIsLoading(false);
       setMovies(response.data);
     };
     fetchData();

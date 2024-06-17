@@ -27,7 +27,7 @@ function App() {
           - path: là đường dẫn URL
           - element là component bạn muốn hiển thị tương ứng với path
           */}
-                    <Route path="/Project/" element={<DefaultLayout />}>
+                    <Route path="/ProjectAptech/" element={<DefaultLayout />}>
                         <Route index element={<HomePage />} />
                         <Route path="popular" element={<PopularPage />} />
                         <Route path=":id" element={<MoviesDetailPage />} />
